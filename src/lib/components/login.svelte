@@ -35,7 +35,6 @@
 	function submitHandler() {
 		testEmail();
 		if (isEmailValid == '') {
-			console.log('hä');
 			dispatch('login', {
 				email: email,
 				password: password
