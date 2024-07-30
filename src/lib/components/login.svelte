@@ -44,7 +44,7 @@
 </script>
 
 <div class="cardWrapper">
-	<form on:submit={submitHandler}>
+	<form on:submit|preventDefault={submitHandler}>
 		<Card>
 			<Card.Header slot="header">Login</Card.Header>
 			<Card.Content slot="content">
