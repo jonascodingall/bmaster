@@ -9,6 +9,10 @@ export default {
 		extend: {}
 	},
 
+	stwui: {
+		themes: ['light', 'dark']
+	},
+
 	plugins: [
 		require('@tailwindcss/typography'),
 		require('@tailwindcss/forms'),
